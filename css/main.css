@@ -1,3 +1,29 @@
-body    {
+/* universal selector */
+*   {
+    background-color: antiquewhite;
+}
+
+/* ID selector */
+#heading_1  {
+    font-size: 36px;
     color: red;
+}
+
+#heading_2  {
+    font-size: 32px;
+    color: green;
+}
+
+/* Xatboshilar uchun stillar */
+[disabled]   {
+    font-size: 16px;
+    color: grey;
+}
+
+/* Class selector */
+.btn_primary    {
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: grey;
+    color: white;
 }
