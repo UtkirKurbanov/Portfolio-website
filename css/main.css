@@ -241,3 +241,45 @@ body    {
 .service-card:hover .service-card__link {
     color: #fff;
 }
+
+/* Clinets section style */
+.clients    {
+    padding-top: 100px;
+}
+
+.client-item > div {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.client-item__image    {
+    width: 100%;
+}
+
+.client-item__info  {
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.client-item__name  {
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+
+.client-item__position  {
+    font-size: 14px;
+    font-weight: 300;
+    color: #5b6d75;
+}
+
+.client-item__review    {
+    font-size: 14px;
+    line-height: 27px;
+    font-weight: 300;
+    color: #5b6d75;
+}
+
+.client-item__rate    {
+    color: #ffd805;
+}
